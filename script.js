@@ -79,7 +79,7 @@ const galaxyParameters = {
   outsideColor: new THREE.Color(0x48b8b8),
 };
 
-const defaultHeartImages = Array.from({ length: 2 }, (_, i) => `images/img${i + 1}.jpg`);
+const defaultHeartImages = Array.from({ length: 2 }, (_, i) => `images/img${i + 1}.jpeg`);
 
 const heartImages = [
   ...(window.dataCCD?.data?.heartImages || []),
@@ -588,9 +588,9 @@ scene.add(planet);
 //Ganti Deskripsi Planet
 const ringTexts = [
   'Galaxy of love From ...',//untuk deskripsi planet layer 1
-  "Semoga cepet sembuh kakinyaa",//untuk deskripsi planet layer 2
-  "♡Halooo Nana♡",//untuk deskripsi planet layer 3
-  "Cepet Sembuh ya kaki nyaaaa",//untuk deskripsi planet layer 4
+  "Sehat sehat teruuus",//untuk deskripsi planet layer 2
+  "♡Halooo Juniii♡",//untuk deskripsi planet layer 3
+  "Ayoo kita hiking bareeeng",//untuk deskripsi planet layer 4
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
